@@ -33,7 +33,7 @@
         <figure>
             <img src="img/owner_warkop.png" alt="Owner Warkop Sederhana" title="I Luv Coffee" width="150" height="350">
             <figcaption>
-                Owner Warkop Sederhana
+                Owner Warkop Sederhana (Sasageyo)
             </figcaption>
         </figure>
     </header>
@@ -41,7 +41,37 @@
     <hr>
     
     <main>
-        <!-- our content -->
+        <article id="form">
+            <h2>Form Kontak Kerjasama dll</h2>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Pesan Anda</legend>
+                    <p>
+                        <label for="name">Nama :</label>
+                        <input type="text" name="name" id="name" placeholder="Nama Anda*" required>
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Email Anda*" required>
+                    </p>
+                    <p>
+                        <label for="message">Pesan Anda :</label>
+                        <textarea name="message" id="message" placeholder="Pesan Anda" cols="25" rows="10"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Kirim</button>
+                <button type="reset">Reset</button>
+            </form>
+        </article>
+        <section>
+            <h2>Lokasi Kita</h2>
+            <address>
+                Lokasi di Tempat Wisata Cilembu
+                <br><br>
+                Phone : <a href="tel:+7777777">777-77-77</a>
+            </address>
+        </section>
     </main>
     
     <hr>
